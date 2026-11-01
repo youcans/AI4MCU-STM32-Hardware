@@ -1,0 +1,24 @@
+# Altium 原始设计文件
+boards/*/Altium_Designer/**
+!boards/*/Altium_Designer/.gitkeep
+
+# ST 官方参考资料
+boards/*/references/**
+!boards/*/references/.gitkeep
+
+# 硬件信息处理过程文件
+boards/*/process/**
+!boards/*/process/.gitkeep
+
+# Python 缓存
+__pycache__/
+*.pyc
+.venv/
+
+# 临时文件
+*.tmp
+*.bak
+
+# 操作系统文件
+.DS_Store
+Thumbs.db

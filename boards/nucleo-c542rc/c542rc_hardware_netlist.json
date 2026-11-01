@@ -1,0 +1,5515 @@
+{
+  "metadata": {
+    "schema_version": "1.1",
+    "board_name": "MB2213",
+    "source_netlist": "mb2213_netlist.json",
+    "target_mcu": "STM32C542RCT6",
+    "design_mcu": "STM32C562RET6",
+    "mcu_component": "U1",
+    "generated_at": "2026-10-31"
+  },
+  "components": {
+    "B1": {
+      "type": "Misc",
+      "value": "KSC721JLFS",
+      "footprint": "SWI_C&K_KSC721JLFS_BLUE",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "B2": {
+      "type": "Misc",
+      "value": "KSC321JLFS",
+      "footprint": "SWI_C&K_KSC321JLFS_BLACK",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "B3": {
+      "type": "Misc",
+      "value": "KMR231GLFS",
+      "footprint": "SWI_C&K_Y78B23110FP__ITT_KMR231GLFS",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "C1": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "C2": {
+      "type": "Capacitor",
+      "value": "10uF",
+      "footprint": "C0805",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "C3": {
+      "type": "Capacitor",
+      "value": "10uF",
+      "footprint": "C0805",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "C4": {
+      "type": "Capacitor",
+      "value": "1uF",
+      "footprint": "C0603",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "C5": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "C6": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "C7": {
+      "type": "Capacitor",
+      "value": "1uF",
+      "footprint": "C0603",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "C8": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C9": {
+      "type": "Capacitor",
+      "value": "4.7uF",
+      "footprint": "C0603",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C10": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C11": {
+      "type": "Capacitor",
+      "value": "2.2uF",
+      "footprint": "C0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C12": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "Connectors.SchDoc"
+    },
+    "C13": {
+      "type": "Capacitor",
+      "value": "2.2uF",
+      "footprint": "C0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C14": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C15": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C16": {
+      "type": "Capacitor",
+      "value": "1uF",
+      "footprint": "C0603",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C17": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C18": {
+      "type": "Capacitor",
+      "value": "1.8pF",
+      "footprint": "C0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "C19": {
+      "type": "Capacitor",
+      "value": "8.2pF",
+      "footprint": "C0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "C20": {
+      "type": "Capacitor",
+      "value": "8.2pF",
+      "footprint": "C0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "C21": {
+      "type": "Capacitor",
+      "value": "1.8pF",
+      "footprint": "C0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "C22": {
+      "type": "Capacitor",
+      "value": "10pF",
+      "footprint": "C0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "C23": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "C24": {
+      "type": "Capacitor",
+      "value": "100pF",
+      "footprint": "C0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "C25": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "C26": {
+      "type": "Capacitor",
+      "value": "2.2uF",
+      "footprint": "C0805",
+      "source_page": "USB_User.SchDoc"
+    },
+    "C27": {
+      "type": "Capacitor",
+      "value": "100pF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C28": {
+      "type": "Capacitor",
+      "value": "20pF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C29": {
+      "type": "Capacitor",
+      "value": "10nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C30": {
+      "type": "Capacitor",
+      "value": "10nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C31": {
+      "type": "Capacitor",
+      "value": "5.6pF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C32": {
+      "type": "Capacitor",
+      "value": "5.6pF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C33": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C34": {
+      "type": "Capacitor",
+      "value": "2.2uF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C35": {
+      "type": "Capacitor",
+      "value": "10uF",
+      "footprint": "C0603",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C36": {
+      "type": "Capacitor",
+      "value": "10nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C37": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C38": {
+      "type": "Capacitor",
+      "value": "10nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C39": {
+      "type": "Capacitor",
+      "value": "10uF",
+      "footprint": "C0603",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C40": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C41": {
+      "type": "Capacitor",
+      "value": "1uF",
+      "footprint": "C0603",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "C42": {
+      "type": "Capacitor",
+      "value": "2.2uF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C43": {
+      "type": "Capacitor",
+      "value": "2.2uF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C44": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C45": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C46": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C47": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C48": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C49": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C50": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C51": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C52": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C53": {
+      "type": "Capacitor",
+      "value": "2.2uF",
+      "footprint": "C0805",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C54": {
+      "type": "Capacitor",
+      "value": "10uF",
+      "footprint": "C0603",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C55": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C56": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C57": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C58": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C59": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C60": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C61": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C62": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "C63": {
+      "type": "Capacitor",
+      "value": "1nF",
+      "footprint": "C0402",
+      "source_page": "LIN.SchDoc"
+    },
+    "C64": {
+      "type": "Capacitor",
+      "value": "100nF",
+      "footprint": "C0402",
+      "source_page": "LIN.SchDoc"
+    },
+    "C65": {
+      "type": "Capacitor",
+      "value": "220pF",
+      "footprint": "C0805_H0P6",
+      "source_page": "LIN.SchDoc"
+    },
+    "CN1": {
+      "type": "Connector",
+      "value": "USB_C_12401826E412A",
+      "footprint": "CON_USB-TYPEC_AMPHENOL_12401826E412A",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "CN2": {
+      "type": "Connector",
+      "value": "Header 2x1",
+      "footprint": "CON_SAMTEC_TSW-102-09-X-S",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "CN3": {
+      "type": "Connector",
+      "value": "Header 2x1",
+      "footprint": "CON_SAMTEC_TSW-102-09-X-S",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "CN4": {
+      "type": "Connector",
+      "value": "Shrouded_FTSH-105-01-L-DV-K",
+      "footprint": "CON_STDC14_Receiver_MEDIUM_WITH_MIPI10_3D",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "CN5": {
+      "type": "Connector",
+      "value": "Socket 10x1",
+      "footprint": "CON_SAMTEC_SSW-110-01-X-S",
+      "source_page": "Connectors.SchDoc"
+    },
+    "CN6": {
+      "type": "Connector",
+      "value": "Socket 8x1",
+      "footprint": "CON_SAMTEC_SSW-108-01-X-S",
+      "source_page": "Connectors.SchDoc"
+    },
+    "CN7": {
+      "type": "Connector",
+      "value": "Header 19x2",
+      "footprint": "CON_SAMTEC_TSW-119-09-X-D",
+      "source_page": "Connectors.SchDoc"
+    },
+    "CN8": {
+      "type": "Connector",
+      "value": "Socket 6x1",
+      "footprint": "CON_SAMTEC_SSW-106-01-X-S",
+      "source_page": "Connectors.SchDoc"
+    },
+    "CN9": {
+      "type": "Connector",
+      "value": "Socket 8x1",
+      "footprint": "CON_SAMTEC_SSW-108-01-X-S",
+      "source_page": "Connectors.SchDoc"
+    },
+    "CN10": {
+      "type": "Connector",
+      "value": "Header 19x2",
+      "footprint": "CON_SAMTEC_TSW-119-09-X-D",
+      "source_page": "Connectors.SchDoc"
+    },
+    "CN11": {
+      "type": "Connector",
+      "value": "Header 3x1",
+      "footprint": "CON_SAMTEC_TSW-103-07-F-S",
+      "source_page": "LIN.SchDoc"
+    },
+    "CN13": {
+      "type": "Connector",
+      "value": "USB_C_12401826E412A",
+      "footprint": "CON_USB-TYPEC_AMPHENOL_12401826E412A",
+      "source_page": "USB_User.SchDoc"
+    },
+    "CN17": {
+      "type": "Connector",
+      "value": "Header 4x1",
+      "footprint": "CON_SAMTEC_TSW-104-07-G-S",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "CN18": {
+      "type": "Connector",
+      "value": "Header 3x1",
+      "footprint": "CON_WE-691382010003",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "D1": {
+      "type": "Diode",
+      "value": "BAT20JFILM",
+      "footprint": "DIO_SOD323_1A_2K",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "D2": {
+      "type": "Diode",
+      "value": "BAT20JFILM",
+      "footprint": "DIO_SOD323_1A_2K",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "D3": {
+      "type": "Diode",
+      "value": "STPS1L40ZFY",
+      "footprint": "DIO_SOD123-FLAT_1A_2K",
+      "source_page": "LIN.SchDoc"
+    },
+    "H1": {
+      "type": "Misc",
+      "value": "PTH 3.2mm",
+      "footprint": "PTH_320",
+      "source_page": "Connectors.SchDoc"
+    },
+    "H2": {
+      "type": "Misc",
+      "value": "PTH 3.2mm",
+      "footprint": "PTH_320",
+      "source_page": "Connectors.SchDoc"
+    },
+    "H3": {
+      "type": "Misc",
+      "value": "PTH 3.2mm",
+      "footprint": "PTH_320",
+      "source_page": "Connectors.SchDoc"
+    },
+    "HW1": {
+      "type": "Misc",
+      "value": "N/A",
+      "footprint": "STICKER_PRODUCT_25X9",
+      "source_page": "Project_Overview.SchDoc"
+    },
+    "HW2": {
+      "type": "Misc",
+      "value": "SNT-100-BK-G",
+      "footprint": null,
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "HW3": {
+      "type": "Socket_IC",
+      "value": "Socket_LQFP64",
+      "footprint": null,
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "HW4": {
+      "type": "Misc",
+      "value": "SNT-100-BK-G",
+      "footprint": null,
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "HW5": {
+      "type": "PCB",
+      "value": "MB2213",
+      "footprint": null,
+      "source_page": "Project_Overview.SchDoc"
+    },
+    "HW6": {
+      "type": "Misc",
+      "value": "SNT-100-BK-G",
+      "footprint": null,
+      "source_page": "LIN.SchDoc"
+    },
+    "HW7": {
+      "type": "Misc",
+      "value": "SNT-100-BK-G",
+      "footprint": null,
+      "source_page": "LIN.SchDoc"
+    },
+    "HW9": {
+      "type": "Misc",
+      "value": "Fiducial Pad",
+      "footprint": "MIRE_PLACE_SMD_1MM",
+      "source_page": "Top.SchDoc"
+    },
+    "HW10": {
+      "type": "Misc",
+      "value": "Fiducial Pad",
+      "footprint": "MIRE_PLACE_SMD_1MM",
+      "source_page": "Top.SchDoc"
+    },
+    "HW11": {
+      "type": "Misc",
+      "value": "Fiducial Pad",
+      "footprint": "MIRE_PLACE_SMD_1MM",
+      "source_page": "Top.SchDoc"
+    },
+    "HW12": {
+      "type": "Misc",
+      "value": "Fiducial Pad",
+      "footprint": "MIRE_PLACE_SMD_1MM",
+      "source_page": "Top.SchDoc"
+    },
+    "JP1": {
+      "type": "Connector",
+      "value": "Header 4x2",
+      "footprint": "CON_SAMTEC_TSW-104-07-X-D",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "JP2": {
+      "type": "Connector",
+      "value": "Header 3x1",
+      "footprint": "CON_SAMTEC_TSW-103-07-F-S",
+      "source_page": "LIN.SchDoc"
+    },
+    "JP3": {
+      "type": "Connector",
+      "value": "Header 2x1",
+      "footprint": "CON_SAMTEC_TSW-102-07-G-S",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "JP4": {
+      "type": "Connector",
+      "value": "Header 3x1",
+      "footprint": "CON_SAMTEC_TSW-103-07-F-S",
+      "source_page": "LIN.SchDoc"
+    },
+    "JP5": {
+      "type": "Connector",
+      "value": "Header 2x1",
+      "footprint": "CON_SAMTEC_TSW-102-07-G-S",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "JP9": {
+      "type": "Connector",
+      "value": "Header 2x1",
+      "footprint": "CON_SAMTEC_TSW-102-07-G-S",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "LD1": {
+      "type": "Display",
+      "value": "Green",
+      "footprint": "LED_0603_OSRAM_LG-Q396-PS-35_GREEN_1A2K_H0P4",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "LD4": {
+      "type": "Display",
+      "value": "Red/Green",
+      "footprint": "LED_BI-GR_WE-150141SV73110",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "LD5": {
+      "type": "Display",
+      "value": "Green",
+      "footprint": "LED_0603_OSRAM_LG-Q396-PS-35_GREEN_1A2K_H0P4",
+      "source_page": "USB_User.SchDoc"
+    },
+    "LD6": {
+      "type": "Display",
+      "value": "Red/Green",
+      "footprint": "LED_BI-GR_WE-150141SV73110",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "LD7": {
+      "type": "Display",
+      "value": "Green",
+      "footprint": "LED_0603_OSRAM_LG-Q396-PS-35_GREEN_1A2K_H0P4",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "Q1": {
+      "type": "Transistor",
+      "value": "NDS7002A",
+      "footprint": "ICC_SOT23-3L_H1P12",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "Q2": {
+      "type": "Transistor",
+      "value": "NDS7002A",
+      "footprint": "ICC_SOT23-3L_H1P12",
+      "source_page": "USB_User.SchDoc"
+    },
+    "Q3": {
+      "type": "Transistor",
+      "value": "NDS7002A",
+      "footprint": "ICC_SOT23-3L_H1P12",
+      "source_page": "USB_User.SchDoc"
+    },
+    "Q4": {
+      "type": "Transistor",
+      "value": "NDS7002A",
+      "footprint": "ICC_SOT23-3L_H1P12",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R1": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "R2": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "R3": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "R4": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "R5": {
+      "type": "Resistor",
+      "value": "1K",
+      "footprint": "R0402",
+      "source_page": "Connectors.SchDoc"
+    },
+    "R6": {
+      "type": "Resistor",
+      "value": "560R",
+      "footprint": "R0402",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "R7": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "R8": {
+      "type": "Resistor",
+      "value": "100R",
+      "footprint": "R0402",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "R9": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "R10": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "R11": {
+      "type": "Resistor",
+      "value": "1K",
+      "footprint": "R0402",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "R12": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "R13": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "R16": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "R17": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0603",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "R18": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R19": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R20": {
+      "type": "Resistor",
+      "value": "560R",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R21": {
+      "type": "Resistor",
+      "value": "56K",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R22": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R23": {
+      "type": "Resistor",
+      "value": "100R",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R24": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R25": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R26": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "R27": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0603",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R28": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0603",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R29": {
+      "type": "Resistor",
+      "value": "120R",
+      "footprint": "R0402",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "R30": {
+      "type": "Resistor",
+      "value": "5K1",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R31": {
+      "type": "Resistor",
+      "value": "5K1",
+      "footprint": "R0402",
+      "source_page": "USB_User.SchDoc"
+    },
+    "R32": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0603",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "R33": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "R34": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0603",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "R35": {
+      "type": "Resistor",
+      "value": "1K",
+      "footprint": "R0402",
+      "source_page": "LIN.SchDoc"
+    },
+    "R36": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "LIN.SchDoc"
+    },
+    "R37": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R43": {
+      "type": "Resistor",
+      "value": "5K1",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R44": {
+      "type": "Resistor",
+      "value": "100R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R45": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R46": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R47": {
+      "type": "Resistor",
+      "value": "5K1",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R48": {
+      "type": "Resistor",
+      "value": "33R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R49": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R50": {
+      "type": "Resistor",
+      "value": "33R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R51": {
+      "type": "Resistor",
+      "value": "33R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R52": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R53": {
+      "type": "Resistor",
+      "value": "33R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R54": {
+      "type": "Resistor",
+      "value": "5K1",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R55": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R56": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R57": {
+      "type": "Resistor",
+      "value": "3K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R58": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R59": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R60": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R61": {
+      "type": "Resistor",
+      "value": "10K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R62": {
+      "type": "Resistor",
+      "value": "3K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R63": {
+      "type": "Resistor",
+      "value": "3K9",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R64": {
+      "type": "Resistor",
+      "value": "1K8",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R65": {
+      "type": "Resistor",
+      "value": "1K3",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R66": {
+      "type": "Resistor",
+      "value": "3K9",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R67": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R68": {
+      "type": "Resistor",
+      "value": "1K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R69": {
+      "type": "Resistor",
+      "value": "330R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R70": {
+      "type": "Resistor",
+      "value": "1K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R71": {
+      "type": "Resistor",
+      "value": "100K",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "R72": {
+      "type": "Resistor",
+      "value": "330R",
+      "footprint": "R0402",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "SB1": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB2": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB3": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB4": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB5": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB6": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "SB7": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "SB8": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "SB9": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB10": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "LIN.SchDoc"
+    },
+    "SB11": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB12": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB13": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB14": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB15": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB16": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB17": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB18": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB19": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB20": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB21": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB22": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB23": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB24": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB25": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB26": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB27": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB28": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB29": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB30": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB31": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "SB32": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "SB33": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB34": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "SB35": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB36": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB37": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB38": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB39": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB40": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB41": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB42": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB43": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB44": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_Power.SchDoc"
+    },
+    "SB45": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB46": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "SB47": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB48": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB49": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB50": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "Connectors.SchDoc"
+    },
+    "SB51": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "USB_User.SchDoc"
+    },
+    "SB52": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "LIN.SchDoc"
+    },
+    "SB53": {
+      "type": "Resistor",
+      "value": "0R",
+      "footprint": "SOLDER-BRIDGE_R0603-0R",
+      "source_page": "LIN.SchDoc"
+    },
+    "TP1": {
+      "type": "Misc",
+      "value": "N/A",
+      "footprint": "TP_PTH_1MM_2MM",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "TP2": {
+      "type": "Misc",
+      "value": "N/A",
+      "footprint": "TP_PTH_1MM_2MM",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "TP3": {
+      "type": "Misc",
+      "value": "N/A",
+      "footprint": "TP_SMD_1MM",
+      "source_page": "USB_User.SchDoc"
+    },
+    "TP15": {
+      "type": "Misc",
+      "value": "N/A",
+      "footprint": "TP_SMD_1MM",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "U1": {
+      "type": "IC",
+      "value": "STM32C562RET6",
+      "footprint": "ICC_LQFP64_10X10_P050_SOCKET_YAMAICHI_IC149-064-069-B5_NM",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "U2": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "U3": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "U4": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "Peripherals.SchDoc"
+    },
+    "U5": {
+      "type": "IC",
+      "value": "LD1117S50TR",
+      "footprint": "REG_SOT223-TAB",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "U6": {
+      "type": "IC",
+      "value": "LD39100PU33R",
+      "footprint": "ICC_DFN6-EPAD_3X3_P095",
+      "source_page": "Power_Sources.SchDoc"
+    },
+    "U7": {
+      "type": "IC",
+      "value": "MCP2562FDT-H/SN",
+      "footprint": "ICC_SO8_5X4_P127",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "U8": {
+      "type": "IC",
+      "value": "STEF05SGR",
+      "footprint": "ICC_TSOT23-8L",
+      "source_page": "USB_User.SchDoc"
+    },
+    "U11": {
+      "type": "Diode",
+      "value": "ESDCAN03-2BWY",
+      "footprint": "DIO_SOT323",
+      "source_page": "FDCAN.SchDoc"
+    },
+    "U12": {
+      "type": "IC",
+      "value": "ECMF2-40A100N6",
+      "footprint": "ESD_UQFN-6L_1P45X1P4_P040",
+      "source_page": "USB_User.SchDoc"
+    },
+    "U13": {
+      "type": "IC",
+      "value": "STM32F723IEK6",
+      "footprint": "ICC_UFBGA201_176+25_10X10_P065",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "U14": {
+      "type": "Diode",
+      "value": "ESDA25P35-1U1M",
+      "footprint": "ESD_QFN1610_2N_1K_2A",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "U15": {
+      "type": "IC",
+      "value": "ECMF2-40A100N6",
+      "footprint": "ESD_UQFN-6L_1P45X1P4_P040",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "U16": {
+      "type": "IC",
+      "value": "TPS259535DSG",
+      "footprint": "ICC_WSON8-EPAD_2X2_P050",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "U17": {
+      "type": "IC",
+      "value": "STMPS2151STR",
+      "footprint": "MOS_SOT23-5L",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "U18": {
+      "type": "IC",
+      "value": "ST730M33R",
+      "footprint": "ICC_SOT23-5L_H1P45",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "U19": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "USB_User.SchDoc"
+    },
+    "U20": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "USB_User.SchDoc"
+    },
+    "U21": {
+      "type": "Diode",
+      "value": "ESDA25P35-1U1M",
+      "footprint": "ESD_QFN1610_2N_1K_2A",
+      "source_page": "USB_User.SchDoc"
+    },
+    "U23": {
+      "type": "IC",
+      "value": "TJA1027TK/20/1J",
+      "footprint": "ICC_DOUBLE-EMPREINTE_SOIC8-NM_3P91X4P90_P127_H1P75-HVSON8-EPAD_3X3_P065",
+      "source_page": "LIN.SchDoc"
+    },
+    "U24": {
+      "type": "Diode",
+      "value": "ESDLIN03-1BWY",
+      "footprint": "DIO_SOT323",
+      "source_page": "LIN.SchDoc"
+    },
+    "U30": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U31": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U32": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U33": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U34": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U35": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U36": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U37": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "U38": {
+      "type": "Diode",
+      "value": "ESDZV5H-1BU2",
+      "footprint": "ESD-BI_ST0201_H0P24",
+      "source_page": "External_Debug_Interface.SchDoc"
+    },
+    "X1": {
+      "type": "Crystal_Osc",
+      "value": "24MHz",
+      "footprint": "CRY_NX2016SA_4P",
+      "source_page": "STLINK_V3EC.SchDoc"
+    },
+    "X2": {
+      "type": "Crystal_Osc",
+      "value": "32.768kHz",
+      "footprint": "CRY_NX1610SE_2P",
+      "source_page": "MCU_IOs.SchDoc"
+    },
+    "X3": {
+      "type": "Crystal_Osc",
+      "value": "24MHz",
+      "footprint": "CRY_NX2016SA_4P",
+      "source_page": "MCU_IOs.SchDoc"
+    }
+  },
+  "nets": {
+    "3V3": {
+      "endpoints": [
+        "B1.3",
+        "B1.4",
+        "B3.2",
+        "B3.4",
+        "C25.1",
+        "CN4.3",
+        "CN6.2",
+        "CN6.4",
+        "CN7.5",
+        "CN7.12",
+        "CN7.16",
+        "JP5.1",
+        "Q2.1",
+        "Q3.1",
+        "R6.2",
+        "R20.2",
+        "R24.2",
+        "R25.1",
+        "R34.1",
+        "R36.2",
+        "R58.2",
+        "SB7.2",
+        "TP1.1",
+        "U7.5",
+        "U38.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "External_Debug_Interface.SchDoc",
+        "FDCAN.SchDoc",
+        "LIN.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Power_Sources.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "USB_User.SchDoc"
+      ]
+    },
+    "3V3_STLK": {
+      "endpoints": [
+        "C44.1",
+        "C45.1",
+        "C46.1",
+        "C47.1",
+        "C48.1",
+        "C49.1",
+        "C50.1",
+        "C51.1",
+        "C52.1",
+        "C54.2",
+        "C55.1",
+        "C56.1",
+        "C57.1",
+        "C58.1",
+        "C59.1",
+        "C60.1",
+        "C61.1",
+        "C62.1",
+        "CN17.1",
+        "LD4.4",
+        "LD6.4",
+        "R60.2",
+        "R61.2",
+        "R71.1",
+        "U13.C1",
+        "U13.C5",
+        "U13.C6",
+        "U13.C7",
+        "U13.C8",
+        "U13.C9",
+        "U13.F3",
+        "U13.G3",
+        "U13.G13",
+        "U13.H13",
+        "U13.J12",
+        "U13.J13",
+        "U13.K4",
+        "U13.N8",
+        "U13.N9",
+        "U13.N10",
+        "U13.P1",
+        "U13.R1",
+        "U18.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "5V": {
+      "endpoints": [
+        "C6.1",
+        "C7.2",
+        "C23.1",
+        "CN6.5",
+        "CN7.18",
+        "D2.1",
+        "JP1.2",
+        "JP1.4",
+        "JP1.6",
+        "JP1.8",
+        "JP2.1",
+        "R11.2",
+        "R54.2",
+        "SB51.1",
+        "U6.1",
+        "U6.6",
+        "U7.3"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "FDCAN.SchDoc",
+        "LIN.SchDoc",
+        "Power_Sources.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "USB_User.SchDoc"
+      ]
+    },
+    "5V_EXT": {
+      "endpoints": [
+        "CN7.6",
+        "JP1.5"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "Power_Sources.SchDoc"
+      ]
+    },
+    "5V_STLK": {
+      "endpoints": [
+        "C35.2",
+        "C39.2",
+        "CN10.8",
+        "JP1.1",
+        "R62.1",
+        "U16.5",
+        "U16.6",
+        "U17.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "Power_Sources.SchDoc",
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "5V_USB_SNK": {
+      "endpoints": [
+        "JP1.7",
+        "R19.1",
+        "R21.2",
+        "R23.2",
+        "U8.5",
+        "U8.6"
+      ],
+      "source_pages": [
+        "Power_Sources.SchDoc",
+        "USB_User.SchDoc"
+      ]
+    },
+    "5V_VIN": {
+      "endpoints": [
+        "C2.2",
+        "JP1.3",
+        "R5.2",
+        "TP2.1",
+        "U5.2",
+        "U5.4"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "Power_Sources.SchDoc"
+      ]
+    },
+    "AGND": {
+      "endpoints": [
+        "12/VREF-",
+        "CN10.32",
+        "SB31.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_Power.SchDoc"
+      ]
+    },
+    "ARD_A2": {
+      "endpoints": [
+        "CN7.32",
+        "CN8.3",
+        "SB28.2",
+        "SB45.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "ARD_A4": {
+      "endpoints": [
+        "CN7.36",
+        "CN8.5",
+        "SB27.2",
+        "SB47.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "ARD_D0": {
+      "endpoints": [
+        "CN9.1",
+        "CN10.37",
+        "SB37.2",
+        "SB49.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "ARD_D1": {
+      "endpoints": [
+        "CN9.2",
+        "CN10.35",
+        "SB35.2",
+        "SB48.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "ARD_D2": {
+      "endpoints": [
+        "CN9.3",
+        "CN10.33",
+        "SB15.2",
+        "SB40.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "ARD_D4": {
+      "endpoints": [
+        "CN9.5",
+        "CN10.29",
+        "SB30.2",
+        "SB42.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "ARD_D8": {
+      "endpoints": [
+        "CN5.1",
+        "CN10.21",
+        "SB17.2",
+        "SB41.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "ARD_D10": {
+      "endpoints": [
+        "CN5.3",
+        "CN10.17",
+        "SB11.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "AREF": {
+      "endpoints": [
+        "CN5.8",
+        "CN10.7",
+        "SB13.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "CAN_N": {
+      "endpoints": [
+        "CN18.2",
+        "R29.1",
+        "U7.6",
+        "U11.2"
+      ],
+      "source_pages": [
+        "FDCAN.SchDoc"
+      ]
+    },
+    "CAN_P": {
+      "endpoints": [
+        "CN18.1",
+        "JP9.2",
+        "U7.7",
+        "U11.1"
+      ],
+      "source_pages": [
+        "FDCAN.SchDoc"
+      ]
+    },
+    "CN10_1": {
+      "endpoints": [
+        "CN10.1",
+        "SB9.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "CN10_2": {
+      "endpoints": [
+        "CN10.2",
+        "SB19.2",
+        "SB39.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "CN10_4_GPIO": {
+      "endpoints": [
+        "CN10.4",
+        "SB21.2",
+        "SB38.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "CN10_6_GPIO": {
+      "endpoints": [
+        "CN10.6",
+        "SB22.2",
+        "SB43.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "CN10_18_ADC": {
+      "endpoints": [
+        "CN10.18",
+        "SB29.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "CN10_36_GPIO": {
+      "endpoints": [
+        "CN10.36",
+        "SB50.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "DBG.JTDI": {
+      "endpoints": [
+        "CN4.10",
+        "R16.1",
+        "R51.2",
+        "SB18.2",
+        "U33.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "DBG.MCO": {
+      "endpoints": [
+        "C28.2",
+        "R44.2",
+        "SB5.1",
+        "TP15.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "DBG.SWCLK": {
+      "endpoints": [
+        "49/PA14 (JTCK/SWCLK)",
+        "CN4.6",
+        "R7.1",
+        "R50.2",
+        "SB16.2",
+        "U31.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "DBG.SWDIO": {
+      "endpoints": [
+        "46/PA13 (JTMS/SWDIO)",
+        "CN4.4",
+        "R48.2",
+        "SB14.2",
+        "U30.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "DBG.SWO": {
+      "endpoints": [
+        "55/(JTDO/TRACESWO) PB3",
+        "CN4.8",
+        "R49.2",
+        "SB20.1",
+        "U32.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "DBG.VCP_RX": {
+      "endpoints": [
+        "CN4.13",
+        "R53.2",
+        "SB12.2",
+        "U37.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "DBG.VCP_TX": {
+      "endpoints": [
+        "CN4.14",
+        "R52.2",
+        "SB26.2",
+        "SB46.2",
+        "U36.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "FDCAN.RX": {
+      "endpoints": [
+        "SB36.2",
+        "U7.4"
+      ],
+      "source_pages": [
+        "FDCAN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "FDCAN.STBY": {
+      "endpoints": [
+        "R26.1",
+        "SB32.1",
+        "U7.8"
+      ],
+      "source_pages": [
+        "FDCAN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "FDCAN.TX": {
+      "endpoints": [
+        "SB34.1",
+        "U7.1"
+      ],
+      "source_pages": [
+        "FDCAN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "GND": {
+      "endpoints": [
+        "18/VSS",
+        "31/VSS",
+        "47/VSS",
+        "63/VSS",
+        "B2.1",
+        "B2.2",
+        "B3.5",
+        "C1.1",
+        "C2.1",
+        "C3.1",
+        "C4.1",
+        "C5.2",
+        "C6.2",
+        "C7.1",
+        "C8.1",
+        "C9.1",
+        "C10.1",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C14.1",
+        "C15.1",
+        "C16.1",
+        "C17.1",
+        "C18.1",
+        "C19.1",
+        "C20.1",
+        "C21.1",
+        "C22.1",
+        "C23.2",
+        "C24.1",
+        "C25.2",
+        "C26.2",
+        "C27.2",
+        "C28.1",
+        "C29.2",
+        "C30.2",
+        "C31.1",
+        "C32.2",
+        "C33.1",
+        "C34.1",
+        "C35.1",
+        "C36.2",
+        "C37.1",
+        "C38.1",
+        "C39.1",
+        "C40.1",
+        "C41.1",
+        "C42.1",
+        "C43.1",
+        "C44.2",
+        "C45.2",
+        "C46.2",
+        "C47.2",
+        "C48.2",
+        "C49.2",
+        "C50.2",
+        "C51.2",
+        "C52.2",
+        "C53.1",
+        "C54.1",
+        "C55.2",
+        "C56.2",
+        "C57.2",
+        "C58.2",
+        "C59.2",
+        "C60.2",
+        "C61.2",
+        "C62.2",
+        "C63.2",
+        "C64.2",
+        "C65.2",
+        "CN1.A1",
+        "CN1.A12",
+        "CN1.B1",
+        "CN1.B12",
+        "CN1.SH1",
+        "CN1.SH2",
+        "CN1.SH3",
+        "CN1.SH4",
+        "CN2.1",
+        "CN2.2",
+        "CN3.1",
+        "CN3.2",
+        "CN4.5",
+        "CN4.7",
+        "CN5.7",
+        "CN6.6",
+        "CN6.7",
+        "CN7.8",
+        "CN7.19",
+        "CN7.20",
+        "CN7.22",
+        "CN10.9",
+        "CN10.20",
+        "CN11.3",
+        "CN13.A1",
+        "CN13.A12",
+        "CN13.B1",
+        "CN13.B12",
+        "CN13.SH1",
+        "CN13.SH2",
+        "CN13.SH3",
+        "CN13.SH4",
+        "CN17.3",
+        "CN18.3",
+        "JP3.2",
+        "LD4.3",
+        "LD6.3",
+        "LD7.2",
+        "Q1.2",
+        "Q2.2",
+        "Q3.2",
+        "Q4.2",
+        "R8.1",
+        "R9.1",
+        "R12.1",
+        "R13.1",
+        "R18.1",
+        "R22.1",
+        "R24.1",
+        "R25.2",
+        "R26.2",
+        "R27.1",
+        "R28.1",
+        "R37.1",
+        "R43.2",
+        "R47.2",
+        "R55.2",
+        "R57.2",
+        "R59.2",
+        "R63.1",
+        "R66.2",
+        "R67.1",
+        "SB31.1",
+        "U2.2",
+        "U3.2",
+        "U4.2",
+        "U5.1",
+        "U6.2",
+        "U6.EP",
+        "U7.2",
+        "U8.4",
+        "U11.3",
+        "U12.3",
+        "U12.4",
+        "U13.D5",
+        "U13.D6",
+        "U13.D7",
+        "U13.D8",
+        "U13.D9",
+        "U13.F2",
+        "U13.F6",
+        "U13.F7",
+        "U13.F8",
+        "U13.F9",
+        "U13.F10",
+        "U13.F12",
+        "U13.G2",
+        "U13.G6",
+        "U13.G7",
+        "U13.G8",
+        "U13.G9",
+        "U13.G10",
+        "U13.G12",
+        "U13.H6",
+        "U13.H7",
+        "U13.H8",
+        "U13.H9",
+        "U13.H10",
+        "U13.H12",
+        "U13.J6",
+        "U13.J7",
+        "U13.J8",
+        "U13.J9",
+        "U13.J10",
+        "U13.K6",
+        "U13.K7",
+        "U13.K8",
+        "U13.K9",
+        "U13.K10",
+        "U13.L4",
+        "U13.M1",
+        "U13.M8",
+        "U13.M9",
+        "U13.N1",
+        "U14.2",
+        "U15.3",
+        "U15.4",
+        "U16.8",
+        "U16.9",
+        "U17.2",
+        "U18.2",
+        "U19.2",
+        "U20.2",
+        "U21.2",
+        "U23.5",
+        "U23.9",
+        "U24.1",
+        "U30.2",
+        "U31.2",
+        "U32.2",
+        "U33.2",
+        "U34.2",
+        "U35.2",
+        "U36.2",
+        "U37.2",
+        "U38.2",
+        "X1.2",
+        "X1.4",
+        "X3.2",
+        "X3.4"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "External_Debug_Interface.SchDoc",
+        "FDCAN.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Power_Sources.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "USB_User.SchDoc"
+      ]
+    },
+    "GNDDetect": {
+      "endpoints": [
+        "CN4.11",
+        "R8.2",
+        "U34.1"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc"
+      ]
+    },
+    "LIN.RX": {
+      "endpoints": [
+        "R36.1",
+        "SB10.2",
+        "U23.1"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "LIN.SLPN": {
+      "endpoints": [
+        "SB52.2",
+        "U23.2"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "LIN.TX": {
+      "endpoints": [
+        "SB53.2",
+        "U23.4"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "NetB3_1": {
+      "endpoints": [
+        "B3.1",
+        "B3.3",
+        "R12.2",
+        "SB6.2",
+        "U2.1"
+      ],
+      "source_pages": [
+        "Peripherals.SchDoc"
+      ]
+    },
+    "NetC4_2": {
+      "endpoints": [
+        "C4.2",
+        "C5.1",
+        "SB7.1",
+        "U6.4"
+      ],
+      "source_pages": [
+        "Power_Sources.SchDoc"
+      ]
+    },
+    "NetC11_1": {
+      "endpoints": [
+        "30/VCAP",
+        "C11.1",
+        "R33.1"
+      ],
+      "source_pages": [
+        "MCU_Power.SchDoc"
+      ]
+    },
+    "NetC18_2": {
+      "endpoints": [
+        "C18.2",
+        "R4.1",
+        "X3.3"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "NetC19_2": {
+      "endpoints": [
+        "C19.2",
+        "R2.1",
+        "X2.1"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "NetC20_2": {
+      "endpoints": [
+        "C20.2",
+        "R1.1",
+        "X2.2"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "NetC21_2": {
+      "endpoints": [
+        "C21.2",
+        "R3.1",
+        "X3.1"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "NetC24_2": {
+      "endpoints": [
+        "C24.2",
+        "U8.3"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetC34_2": {
+      "endpoints": [
+        "C34.2",
+        "U13.J14"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetC38_2": {
+      "endpoints": [
+        "C38.2",
+        "U16.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetC42_2": {
+      "endpoints": [
+        "C42.2",
+        "U13.M10"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetC43_2": {
+      "endpoints": [
+        "C43.2",
+        "U13.F13"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetC53_2": {
+      "endpoints": [
+        "C53.2",
+        "D1.2",
+        "D2.2",
+        "U18.3",
+        "U18.5"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetC63_1": {
+      "endpoints": [
+        "C63.1",
+        "JP4.1",
+        "R35.1"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "NetC65_1": {
+      "endpoints": [
+        "C65.1",
+        "JP4.3"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "NetCN1_A5": {
+      "endpoints": [
+        "CN1.A5",
+        "R43.1",
+        "R45.2"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetCN1_B5": {
+      "endpoints": [
+        "CN1.B5",
+        "R46.2",
+        "R47.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetCN4_9": {
+      "endpoints": [
+        "CN4.9",
+        "R7.2"
+      ],
+      "source_pages": [
+        "External_Debug_Interface.SchDoc"
+      ]
+    },
+    "NetCN6_1": {
+      "endpoints": [
+        "CN6.1",
+        "R5.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc"
+      ]
+    },
+    "NetCN11_1": {
+      "endpoints": [
+        "CN11.1",
+        "JP4.2",
+        "U23.6",
+        "U24.3"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "NetCN13_A5": {
+      "endpoints": [
+        "CN13.A5",
+        "R30.2",
+        "U19.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetCN13_B5": {
+      "endpoints": [
+        "CN13.B5",
+        "R31.2",
+        "U20.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetD3_2": {
+      "endpoints": [
+        "D3.2",
+        "R35.2"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "NetJP9_1": {
+      "endpoints": [
+        "JP9.1",
+        "R29.2"
+      ],
+      "source_pages": [
+        "FDCAN.SchDoc"
+      ]
+    },
+    "NetLD1_1": {
+      "endpoints": [
+        "LD1.1",
+        "R6.1"
+      ],
+      "source_pages": [
+        "Peripherals.SchDoc"
+      ]
+    },
+    "NetLD1_2": {
+      "endpoints": [
+        "LD1.2",
+        "Q1.3"
+      ],
+      "source_pages": [
+        "Peripherals.SchDoc"
+      ]
+    },
+    "NetLD4_1": {
+      "endpoints": [
+        "LD4.1",
+        "R70.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetLD4_2": {
+      "endpoints": [
+        "LD4.2",
+        "R72.2"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetLD5_1": {
+      "endpoints": [
+        "LD5.1",
+        "R20.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetLD5_2": {
+      "endpoints": [
+        "LD5.2",
+        "Q4.3"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetLD6_1": {
+      "endpoints": [
+        "LD6.1",
+        "R68.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetLD6_2": {
+      "endpoints": [
+        "LD6.2",
+        "R69.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetLD7_1": {
+      "endpoints": [
+        "LD7.1",
+        "R11.1"
+      ],
+      "source_pages": [
+        "Power_Sources.SchDoc"
+      ]
+    },
+    "NetQ1_1": {
+      "endpoints": [
+        "Q1.1",
+        "R9.2",
+        "R10.2"
+      ],
+      "source_pages": [
+        "Peripherals.SchDoc"
+      ]
+    },
+    "NetQ2_3": {
+      "endpoints": [
+        "Q2.3",
+        "R27.2",
+        "R30.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetQ3_3": {
+      "endpoints": [
+        "Q3.3",
+        "R28.2",
+        "R31.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetQ4_1": {
+      "endpoints": [
+        "Q4.1",
+        "R18.2",
+        "R19.2"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetR10_1": {
+      "endpoints": [
+        "R10.1",
+        "SB8.2"
+      ],
+      "source_pages": [
+        "Peripherals.SchDoc"
+      ]
+    },
+    "NetR16_2": {
+      "endpoints": [
+        "50/PA15 (JTDI)",
+        "R16.2"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "NetR23_1": {
+      "endpoints": [
+        "R23.1",
+        "U8.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NetR44_1": {
+      "endpoints": [
+        "R44.1",
+        "U13.F15"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetR56_1": {
+      "endpoints": [
+        "R56.1",
+        "U13.P3"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetR57_1": {
+      "endpoints": [
+        "R57.1",
+        "U13.J15"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetR60_1": {
+      "endpoints": [
+        "R60.1",
+        "U13.D4"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetR61_1": {
+      "endpoints": [
+        "R61.1",
+        "U13.C4"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetR64_1": {
+      "endpoints": [
+        "R64.1",
+        "R65.1",
+        "R66.1",
+        "U16.7"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "NetTP3_1": {
+      "endpoints": [
+        "TP3.1",
+        "U8.2"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "NRST": {
+      "endpoints": [
+        "7/NRST",
+        "B2.3",
+        "B2.4",
+        "C1.2",
+        "CN4.12",
+        "CN6.3",
+        "CN7.14",
+        "R56.2",
+        "U4.1",
+        "U35.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "External_Debug_Interface.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "STLINK_V3EC.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "OSC32_IN": {
+      "endpoints": [
+        "3/PC14",
+        "R1.2",
+        "SB1.1"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "OSC32_OUT": {
+      "endpoints": [
+        "4/PC15",
+        "R2.2",
+        "SB2.1"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "OSC_IN": {
+      "endpoints": [
+        "5/PH0",
+        "R3.2",
+        "SB3.2",
+        "SB5.2"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "OSC_OUT": {
+      "endpoints": [
+        "6/PH1",
+        "R4.2",
+        "SB4.2"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc"
+      ]
+    },
+    "PA0": {
+      "endpoints": [
+        "14/PA0",
+        "CN7.28",
+        "CN8.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA1": {
+      "endpoints": [
+        "15/PA1",
+        "CN7.30",
+        "CN8.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA2": {
+      "endpoints": [
+        "16/PA2",
+        "CN7.9",
+        "SB26.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA3": {
+      "endpoints": [
+        "17/PA3",
+        "CN7.11",
+        "SB12.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA4": {
+      "endpoints": [
+        "20/PA4",
+        "SB24.1",
+        "SB46.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA4_ADC_DAC": {
+      "endpoints": [
+        "SB24.2",
+        "SB28.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA5": {
+      "endpoints": [
+        "21/PA5",
+        "CN5.6",
+        "CN10.11",
+        "SB8.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA6": {
+      "endpoints": [
+        "22/PA6",
+        "CN5.5",
+        "CN10.13"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA7": {
+      "endpoints": [
+        "23/PA7",
+        "CN5.4",
+        "CN10.15"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA8": {
+      "endpoints": [
+        "41/PA8",
+        "CN9.8",
+        "CN10.23"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA9": {
+      "endpoints": [
+        "42/PA9",
+        "SB17.1",
+        "SB39.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA10": {
+      "endpoints": [
+        "43/PA10",
+        "SB15.1",
+        "SB38.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA11": {
+      "endpoints": [
+        "CN10.14",
+        "SB23.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA12": {
+      "endpoints": [
+        "CN10.12",
+        "SB25.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA13": {
+      "endpoints": [
+        "CN7.13",
+        "SB14.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA14": {
+      "endpoints": [
+        "CN7.15",
+        "SB16.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PA15": {
+      "endpoints": [
+        "CN7.17",
+        "SB18.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB0": {
+      "endpoints": [
+        "26/PB0",
+        "CN7.34",
+        "CN8.4"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB1": {
+      "endpoints": [
+        "27/PB1",
+        "SB29.1",
+        "SB45.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB2": {
+      "endpoints": [
+        "28/PB2",
+        "CN10.22",
+        "SB52.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB3": {
+      "endpoints": [
+        "CN9.4",
+        "CN10.31",
+        "SB20.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB4": {
+      "endpoints": [
+        "56/(NJTRST) PB4",
+        "CN9.6",
+        "CN10.27"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB5": {
+      "endpoints": [
+        "57/PB5",
+        "SB22.1",
+        "SB42.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB6": {
+      "endpoints": [
+        "58/PB6",
+        "CN5.10",
+        "CN10.3"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB7": {
+      "endpoints": [
+        "59/PB7",
+        "CN5.9",
+        "CN10.5"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB8": {
+      "endpoints": [
+        "61/PB8",
+        "SB36.1",
+        "SB37.1",
+        "SB50.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB9": {
+      "endpoints": [
+        "62/PB9",
+        "C13.1",
+        "R33.2",
+        "SB34.2",
+        "SB35.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB10": {
+      "endpoints": [
+        "29/PB10",
+        "CN9.7",
+        "CN10.25"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB12": {
+      "endpoints": [
+        "33/PB12",
+        "CN10.16"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB13": {
+      "endpoints": [
+        "34/PB13",
+        "CN10.30"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB14": {
+      "endpoints": [
+        "35/PB14",
+        "CN10.28",
+        "SB48.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PB15": {
+      "endpoints": [
+        "36/PB15",
+        "CN10.26",
+        "SB49.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "MCU_Power.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC0": {
+      "endpoints": [
+        "8/PC0",
+        "CN7.38",
+        "CN8.6"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC1": {
+      "endpoints": [
+        "9/PC1",
+        "SB30.1",
+        "SB47.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC2": {
+      "endpoints": [
+        "10/PC2",
+        "CN7.35"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC3": {
+      "endpoints": [
+        "11/PC3",
+        "CN7.37"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC4": {
+      "endpoints": [
+        "24/PC4",
+        "CN10.34",
+        "SB33.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC5": {
+      "endpoints": [
+        "25/PC5",
+        "SB27.1",
+        "SB43.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC6": {
+      "endpoints": [
+        "37/PC6",
+        "CN5.2",
+        "CN10.19"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC7": {
+      "endpoints": [
+        "38/PC7",
+        "SB21.1",
+        "SB41.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC8": {
+      "endpoints": [
+        "39/PC8",
+        "SB19.1",
+        "SB40.1",
+        "SB53.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC9": {
+      "endpoints": [
+        "40/PC9",
+        "SB9.1",
+        "SB10.1",
+        "SB11.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC10": {
+      "endpoints": [
+        "51/PC10",
+        "CN7.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC11": {
+      "endpoints": [
+        "52/PC11",
+        "CN7.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC12": {
+      "endpoints": [
+        "53/PC12",
+        "CN7.3"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC13": {
+      "endpoints": [
+        "2/PC13",
+        "B1.1",
+        "B1.2",
+        "CN7.23",
+        "R13.2",
+        "U3.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC14": {
+      "endpoints": [
+        "CN7.25",
+        "SB1.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PC15": {
+      "endpoints": [
+        "CN7.27",
+        "SB2.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PD2": {
+      "endpoints": [
+        "54/PD2",
+        "CN7.4"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PE2": {
+      "endpoints": [
+        "1/PE2",
+        "CN7.21",
+        "SB32.2",
+        "SB44.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_Power.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PH0": {
+      "endpoints": [
+        "CN7.29",
+        "SB3.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PH1": {
+      "endpoints": [
+        "CN7.31",
+        "SB4.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "PH2_BOOT0": {
+      "endpoints": [
+        "60/PH2",
+        "CN7.7",
+        "SB6.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_IOs.SchDoc",
+        "Peripherals.SchDoc",
+        "Top.SchDoc"
+      ]
+    },
+    "STLK_LED": {
+      "endpoints": [
+        "R70.2",
+        "R72.1",
+        "U13.D15"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_NRST": {
+      "endpoints": [
+        "C33.2",
+        "JP3.1",
+        "U13.J1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_OSC_IN": {
+      "endpoints": [
+        "C31.2",
+        "U13.G1",
+        "X1.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_OSC_OUT": {
+      "endpoints": [
+        "C32.1",
+        "U13.H1",
+        "X1.3"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_SWCLK": {
+      "endpoints": [
+        "CN17.2",
+        "U13.A14"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_SWDIO": {
+      "endpoints": [
+        "CN17.4",
+        "U13.A15"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_UCPD_CC1_C": {
+      "endpoints": [
+        "C29.1",
+        "R45.1",
+        "U13.M5"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_UCPD_CC2_C": {
+      "endpoints": [
+        "C30.1",
+        "R46.1",
+        "U13.N5"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_USB_CN_N": {
+      "endpoints": [
+        "CN1.A7",
+        "CN1.B7",
+        "U15.2"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_USB_CN_P": {
+      "endpoints": [
+        "CN1.A6",
+        "CN1.B6",
+        "U15.1"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_USB_N": {
+      "endpoints": [
+        "U13.R14",
+        "U15.5"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_USB_P": {
+      "endpoints": [
+        "U13.R15",
+        "U15.6"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_VCP_RX": {
+      "endpoints": [
+        "R52.1",
+        "U13.C10"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "STLK_VCP_TX": {
+      "endpoints": [
+        "R53.1",
+        "U13.A7"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_JTDI": {
+      "endpoints": [
+        "R51.1",
+        "U13.L3"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_PWR_EN": {
+      "endpoints": [
+        "R37.2",
+        "R67.2",
+        "U13.R5",
+        "U16.2",
+        "U17.4"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_PWR_EXT": {
+      "endpoints": [
+        "R54.1",
+        "R55.1",
+        "U13.R4"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_PWR_INT": {
+      "endpoints": [
+        "C36.1",
+        "R62.2",
+        "R63.2",
+        "R71.2",
+        "U13.J2",
+        "U17.3"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_PWR_LED": {
+      "endpoints": [
+        "R68.2",
+        "R69.2",
+        "U13.H15"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_PWR_SEL1": {
+      "endpoints": [
+        "R64.2",
+        "U13.D10"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_PWR_SEL2": {
+      "endpoints": [
+        "R65.2",
+        "U13.C11"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_SWCLK": {
+      "endpoints": [
+        "R50.1",
+        "U13.A10",
+        "U13.M6",
+        "U13.M11"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_SWDIO": {
+      "endpoints": [
+        "R48.1",
+        "U13.L2",
+        "U13.N12"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_SWO": {
+      "endpoints": [
+        "R49.1",
+        "U13.A6",
+        "U13.D12"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "T_VCC_AIN": {
+      "endpoints": [
+        "R58.1",
+        "R59.1",
+        "U13.N3"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "USB_FS_CN_N": {
+      "endpoints": [
+        "CN13.A7",
+        "CN13.B7",
+        "U12.2"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "USB_FS_CN_P": {
+      "endpoints": [
+        "CN13.A6",
+        "CN13.B6",
+        "U12.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "USB_FS_N": {
+      "endpoints": [
+        "44/PA11",
+        "SB23.2",
+        "U12.5"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc",
+        "Top.SchDoc",
+        "USB_User.SchDoc"
+      ]
+    },
+    "USB_FS_P": {
+      "endpoints": [
+        "45/PA12",
+        "SB25.2",
+        "U12.6"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc",
+        "Top.SchDoc",
+        "USB_User.SchDoc"
+      ]
+    },
+    "VBAT": {
+      "endpoints": [
+        "C41.2",
+        "CN7.33",
+        "R32.2",
+        "SB44.1"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_Power.SchDoc"
+      ]
+    },
+    "VBAT_LIN": {
+      "endpoints": [
+        "C64.1",
+        "CN11.2",
+        "D3.1",
+        "JP2.2",
+        "U23.7"
+      ],
+      "source_pages": [
+        "LIN.SchDoc"
+      ]
+    },
+    "VBUS_DETECT": {
+      "endpoints": [
+        "C22.2",
+        "R21.1",
+        "R22.2",
+        "SB33.1"
+      ],
+      "source_pages": [
+        "MCU_IOs.SchDoc",
+        "Top.SchDoc",
+        "USB_User.SchDoc"
+      ]
+    },
+    "VBUS_STLK": {
+      "endpoints": [
+        "C27.1",
+        "C37.2",
+        "C40.2",
+        "CN1.A4",
+        "CN1.A9",
+        "CN1.B4",
+        "CN1.B9",
+        "D1.1",
+        "U14.1",
+        "U16.3",
+        "U16.4",
+        "U17.5"
+      ],
+      "source_pages": [
+        "STLINK_V3EC.SchDoc"
+      ]
+    },
+    "VBUSC": {
+      "endpoints": [
+        "C26.1",
+        "CN13.A4",
+        "CN13.A9",
+        "CN13.B4",
+        "CN13.B9",
+        "SB51.2",
+        "U8.7",
+        "U8.8",
+        "U21.1"
+      ],
+      "source_pages": [
+        "USB_User.SchDoc"
+      ]
+    },
+    "VDD_MCU": {
+      "endpoints": [
+        "19/VDD",
+        "32/VDD",
+        "48/VDD",
+        "64/VDD",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C14.2",
+        "C15.2",
+        "JP5.2",
+        "R17.1",
+        "R32.1",
+        "R34.2"
+      ],
+      "source_pages": [
+        "MCU_Power.SchDoc"
+      ]
+    },
+    "VIN": {
+      "endpoints": [
+        "C3.2",
+        "CN6.8",
+        "CN7.24",
+        "JP2.3",
+        "U5.3"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "LIN.SchDoc",
+        "Power_Sources.SchDoc"
+      ]
+    },
+    "VREFP": {
+      "endpoints": [
+        "13/VREF+",
+        "C12.1",
+        "C16.2",
+        "C17.2",
+        "R17.2",
+        "SB13.2"
+      ],
+      "source_pages": [
+        "Connectors.SchDoc",
+        "MCU_Power.SchDoc"
+      ]
+    }
+  },
+  "mcu_pin_index": {
+    "1/PE2": {
+      "pin": "1/PE2",
+      "net": "PE2",
+      "endpoints": [
+        "1/PE2",
+        "CN7.21",
+        "SB32.2",
+        "SB44.2"
+      ]
+    },
+    "2/PC13": {
+      "pin": "2/PC13",
+      "net": "PC13",
+      "endpoints": [
+        "2/PC13",
+        "B1.1",
+        "B1.2",
+        "CN7.23",
+        "R13.2",
+        "U3.1"
+      ]
+    },
+    "3/PC14": {
+      "pin": "3/PC14",
+      "net": "OSC32_IN",
+      "endpoints": [
+        "3/PC14",
+        "R1.2",
+        "SB1.1"
+      ]
+    },
+    "4/PC15": {
+      "pin": "4/PC15",
+      "net": "OSC32_OUT",
+      "endpoints": [
+        "4/PC15",
+        "R2.2",
+        "SB2.1"
+      ]
+    },
+    "5/PH0": {
+      "pin": "5/PH0",
+      "net": "OSC_IN",
+      "endpoints": [
+        "5/PH0",
+        "R3.2",
+        "SB3.2",
+        "SB5.2"
+      ]
+    },
+    "6/PH1": {
+      "pin": "6/PH1",
+      "net": "OSC_OUT",
+      "endpoints": [
+        "6/PH1",
+        "R4.2",
+        "SB4.2"
+      ]
+    },
+    "7/NRST": {
+      "pin": "7/NRST",
+      "net": "NRST",
+      "endpoints": [
+        "7/NRST",
+        "B2.3",
+        "B2.4",
+        "C1.2",
+        "CN4.12",
+        "CN6.3",
+        "CN7.14",
+        "R56.2",
+        "U4.1",
+        "U35.1"
+      ]
+    },
+    "8/PC0": {
+      "pin": "8/PC0",
+      "net": "PC0",
+      "endpoints": [
+        "8/PC0",
+        "CN7.38",
+        "CN8.6"
+      ]
+    },
+    "9/PC1": {
+      "pin": "9/PC1",
+      "net": "PC1",
+      "endpoints": [
+        "9/PC1",
+        "SB30.1",
+        "SB47.1"
+      ]
+    },
+    "10/PC2": {
+      "pin": "10/PC2",
+      "net": "PC2",
+      "endpoints": [
+        "10/PC2",
+        "CN7.35"
+      ]
+    },
+    "11/PC3": {
+      "pin": "11/PC3",
+      "net": "PC3",
+      "endpoints": [
+        "11/PC3",
+        "CN7.37"
+      ]
+    },
+    "12/VREF-": {
+      "pin": "12/VREF-",
+      "net": "AGND",
+      "endpoints": [
+        "12/VREF-",
+        "CN10.32",
+        "SB31.2"
+      ]
+    },
+    "13/VREF+": {
+      "pin": "13/VREF+",
+      "net": "VREFP",
+      "endpoints": [
+        "13/VREF+",
+        "C12.1",
+        "C16.2",
+        "C17.2",
+        "R17.2",
+        "SB13.2"
+      ]
+    },
+    "14/PA0": {
+      "pin": "14/PA0",
+      "net": "PA0",
+      "endpoints": [
+        "14/PA0",
+        "CN7.28",
+        "CN8.1"
+      ]
+    },
+    "15/PA1": {
+      "pin": "15/PA1",
+      "net": "PA1",
+      "endpoints": [
+        "15/PA1",
+        "CN7.30",
+        "CN8.2"
+      ]
+    },
+    "16/PA2": {
+      "pin": "16/PA2",
+      "net": "PA2",
+      "endpoints": [
+        "16/PA2",
+        "CN7.9",
+        "SB26.1"
+      ]
+    },
+    "17/PA3": {
+      "pin": "17/PA3",
+      "net": "PA3",
+      "endpoints": [
+        "17/PA3",
+        "CN7.11",
+        "SB12.1"
+      ]
+    },
+    "18/VSS": {
+      "pin": "18/VSS",
+      "net": "GND",
+      "endpoints": [
+        "18/VSS",
+        "31/VSS",
+        "47/VSS",
+        "63/VSS",
+        "B2.1",
+        "B2.2",
+        "B3.5",
+        "C1.1",
+        "C2.1",
+        "C3.1",
+        "C4.1",
+        "C5.2",
+        "C6.2",
+        "C7.1",
+        "C8.1",
+        "C9.1",
+        "C10.1",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C14.1",
+        "C15.1",
+        "C16.1",
+        "C17.1",
+        "C18.1",
+        "C19.1",
+        "C20.1",
+        "C21.1",
+        "C22.1",
+        "C23.2",
+        "C24.1",
+        "C25.2",
+        "C26.2",
+        "C27.2",
+        "C28.1",
+        "C29.2",
+        "C30.2",
+        "C31.1",
+        "C32.2",
+        "C33.1",
+        "C34.1",
+        "C35.1",
+        "C36.2",
+        "C37.1",
+        "C38.1",
+        "C39.1",
+        "C40.1",
+        "C41.1",
+        "C42.1",
+        "C43.1",
+        "C44.2",
+        "C45.2",
+        "C46.2",
+        "C47.2",
+        "C48.2",
+        "C49.2",
+        "C50.2",
+        "C51.2",
+        "C52.2",
+        "C53.1",
+        "C54.1",
+        "C55.2",
+        "C56.2",
+        "C57.2",
+        "C58.2",
+        "C59.2",
+        "C60.2",
+        "C61.2",
+        "C62.2",
+        "C63.2",
+        "C64.2",
+        "C65.2",
+        "CN1.A1",
+        "CN1.A12",
+        "CN1.B1",
+        "CN1.B12",
+        "CN1.SH1",
+        "CN1.SH2",
+        "CN1.SH3",
+        "CN1.SH4",
+        "CN2.1",
+        "CN2.2",
+        "CN3.1",
+        "CN3.2",
+        "CN4.5",
+        "CN4.7",
+        "CN5.7",
+        "CN6.6",
+        "CN6.7",
+        "CN7.8",
+        "CN7.19",
+        "CN7.20",
+        "CN7.22",
+        "CN10.9",
+        "CN10.20",
+        "CN11.3",
+        "CN13.A1",
+        "CN13.A12",
+        "CN13.B1",
+        "CN13.B12",
+        "CN13.SH1",
+        "CN13.SH2",
+        "CN13.SH3",
+        "CN13.SH4",
+        "CN17.3",
+        "CN18.3",
+        "JP3.2",
+        "LD4.3",
+        "LD6.3",
+        "LD7.2",
+        "Q1.2",
+        "Q2.2",
+        "Q3.2",
+        "Q4.2",
+        "R8.1",
+        "R9.1",
+        "R12.1",
+        "R13.1",
+        "R18.1",
+        "R22.1",
+        "R24.1",
+        "R25.2",
+        "R26.2",
+        "R27.1",
+        "R28.1",
+        "R37.1",
+        "R43.2",
+        "R47.2",
+        "R55.2",
+        "R57.2",
+        "R59.2",
+        "R63.1",
+        "R66.2",
+        "R67.1",
+        "SB31.1",
+        "U2.2",
+        "U3.2",
+        "U4.2",
+        "U5.1",
+        "U6.2",
+        "U6.EP",
+        "U7.2",
+        "U8.4",
+        "U11.3",
+        "U12.3",
+        "U12.4",
+        "U13.D5",
+        "U13.D6",
+        "U13.D7",
+        "U13.D8",
+        "U13.D9",
+        "U13.F2",
+        "U13.F6",
+        "U13.F7",
+        "U13.F8",
+        "U13.F9",
+        "U13.F10",
+        "U13.F12",
+        "U13.G2",
+        "U13.G6",
+        "U13.G7",
+        "U13.G8",
+        "U13.G9",
+        "U13.G10",
+        "U13.G12",
+        "U13.H6",
+        "U13.H7",
+        "U13.H8",
+        "U13.H9",
+        "U13.H10",
+        "U13.H12",
+        "U13.J6",
+        "U13.J7",
+        "U13.J8",
+        "U13.J9",
+        "U13.J10",
+        "U13.K6",
+        "U13.K7",
+        "U13.K8",
+        "U13.K9",
+        "U13.K10",
+        "U13.L4",
+        "U13.M1",
+        "U13.M8",
+        "U13.M9",
+        "U13.N1",
+        "U14.2",
+        "U15.3",
+        "U15.4",
+        "U16.8",
+        "U16.9",
+        "U17.2",
+        "U18.2",
+        "U19.2",
+        "U20.2",
+        "U21.2",
+        "U23.5",
+        "U23.9",
+        "U24.1",
+        "U30.2",
+        "U31.2",
+        "U32.2",
+        "U33.2",
+        "U34.2",
+        "U35.2",
+        "U36.2",
+        "U37.2",
+        "U38.2",
+        "X1.2",
+        "X1.4",
+        "X3.2",
+        "X3.4"
+      ]
+    },
+    "19/VDD": {
+      "pin": "19/VDD",
+      "net": "VDD_MCU",
+      "endpoints": [
+        "19/VDD",
+        "32/VDD",
+        "48/VDD",
+        "64/VDD",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C14.2",
+        "C15.2",
+        "JP5.2",
+        "R17.1",
+        "R32.1",
+        "R34.2"
+      ]
+    },
+    "20/PA4": {
+      "pin": "20/PA4",
+      "net": "PA4",
+      "endpoints": [
+        "20/PA4",
+        "SB24.1",
+        "SB46.1"
+      ]
+    },
+    "21/PA5": {
+      "pin": "21/PA5",
+      "net": "PA5",
+      "endpoints": [
+        "21/PA5",
+        "CN5.6",
+        "CN10.11",
+        "SB8.1"
+      ]
+    },
+    "22/PA6": {
+      "pin": "22/PA6",
+      "net": "PA6",
+      "endpoints": [
+        "22/PA6",
+        "CN5.5",
+        "CN10.13"
+      ]
+    },
+    "23/PA7": {
+      "pin": "23/PA7",
+      "net": "PA7",
+      "endpoints": [
+        "23/PA7",
+        "CN5.4",
+        "CN10.15"
+      ]
+    },
+    "24/PC4": {
+      "pin": "24/PC4",
+      "net": "PC4",
+      "endpoints": [
+        "24/PC4",
+        "CN10.34",
+        "SB33.2"
+      ]
+    },
+    "25/PC5": {
+      "pin": "25/PC5",
+      "net": "PC5",
+      "endpoints": [
+        "25/PC5",
+        "SB27.1",
+        "SB43.1"
+      ]
+    },
+    "26/PB0": {
+      "pin": "26/PB0",
+      "net": "PB0",
+      "endpoints": [
+        "26/PB0",
+        "CN7.34",
+        "CN8.4"
+      ]
+    },
+    "27/PB1": {
+      "pin": "27/PB1",
+      "net": "PB1",
+      "endpoints": [
+        "27/PB1",
+        "SB29.1",
+        "SB45.1"
+      ]
+    },
+    "28/PB2": {
+      "pin": "28/PB2",
+      "net": "PB2",
+      "endpoints": [
+        "28/PB2",
+        "CN10.22",
+        "SB52.1"
+      ]
+    },
+    "29/PB10": {
+      "pin": "29/PB10",
+      "net": "PB10",
+      "endpoints": [
+        "29/PB10",
+        "CN9.7",
+        "CN10.25"
+      ]
+    },
+    "30/VCAP": {
+      "pin": "30/VCAP",
+      "net": "NetC11_1",
+      "endpoints": [
+        "30/VCAP",
+        "C11.1",
+        "R33.1"
+      ]
+    },
+    "31/VSS": {
+      "pin": "31/VSS",
+      "net": "GND",
+      "endpoints": [
+        "18/VSS",
+        "31/VSS",
+        "47/VSS",
+        "63/VSS",
+        "B2.1",
+        "B2.2",
+        "B3.5",
+        "C1.1",
+        "C2.1",
+        "C3.1",
+        "C4.1",
+        "C5.2",
+        "C6.2",
+        "C7.1",
+        "C8.1",
+        "C9.1",
+        "C10.1",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C14.1",
+        "C15.1",
+        "C16.1",
+        "C17.1",
+        "C18.1",
+        "C19.1",
+        "C20.1",
+        "C21.1",
+        "C22.1",
+        "C23.2",
+        "C24.1",
+        "C25.2",
+        "C26.2",
+        "C27.2",
+        "C28.1",
+        "C29.2",
+        "C30.2",
+        "C31.1",
+        "C32.2",
+        "C33.1",
+        "C34.1",
+        "C35.1",
+        "C36.2",
+        "C37.1",
+        "C38.1",
+        "C39.1",
+        "C40.1",
+        "C41.1",
+        "C42.1",
+        "C43.1",
+        "C44.2",
+        "C45.2",
+        "C46.2",
+        "C47.2",
+        "C48.2",
+        "C49.2",
+        "C50.2",
+        "C51.2",
+        "C52.2",
+        "C53.1",
+        "C54.1",
+        "C55.2",
+        "C56.2",
+        "C57.2",
+        "C58.2",
+        "C59.2",
+        "C60.2",
+        "C61.2",
+        "C62.2",
+        "C63.2",
+        "C64.2",
+        "C65.2",
+        "CN1.A1",
+        "CN1.A12",
+        "CN1.B1",
+        "CN1.B12",
+        "CN1.SH1",
+        "CN1.SH2",
+        "CN1.SH3",
+        "CN1.SH4",
+        "CN2.1",
+        "CN2.2",
+        "CN3.1",
+        "CN3.2",
+        "CN4.5",
+        "CN4.7",
+        "CN5.7",
+        "CN6.6",
+        "CN6.7",
+        "CN7.8",
+        "CN7.19",
+        "CN7.20",
+        "CN7.22",
+        "CN10.9",
+        "CN10.20",
+        "CN11.3",
+        "CN13.A1",
+        "CN13.A12",
+        "CN13.B1",
+        "CN13.B12",
+        "CN13.SH1",
+        "CN13.SH2",
+        "CN13.SH3",
+        "CN13.SH4",
+        "CN17.3",
+        "CN18.3",
+        "JP3.2",
+        "LD4.3",
+        "LD6.3",
+        "LD7.2",
+        "Q1.2",
+        "Q2.2",
+        "Q3.2",
+        "Q4.2",
+        "R8.1",
+        "R9.1",
+        "R12.1",
+        "R13.1",
+        "R18.1",
+        "R22.1",
+        "R24.1",
+        "R25.2",
+        "R26.2",
+        "R27.1",
+        "R28.1",
+        "R37.1",
+        "R43.2",
+        "R47.2",
+        "R55.2",
+        "R57.2",
+        "R59.2",
+        "R63.1",
+        "R66.2",
+        "R67.1",
+        "SB31.1",
+        "U2.2",
+        "U3.2",
+        "U4.2",
+        "U5.1",
+        "U6.2",
+        "U6.EP",
+        "U7.2",
+        "U8.4",
+        "U11.3",
+        "U12.3",
+        "U12.4",
+        "U13.D5",
+        "U13.D6",
+        "U13.D7",
+        "U13.D8",
+        "U13.D9",
+        "U13.F2",
+        "U13.F6",
+        "U13.F7",
+        "U13.F8",
+        "U13.F9",
+        "U13.F10",
+        "U13.F12",
+        "U13.G2",
+        "U13.G6",
+        "U13.G7",
+        "U13.G8",
+        "U13.G9",
+        "U13.G10",
+        "U13.G12",
+        "U13.H6",
+        "U13.H7",
+        "U13.H8",
+        "U13.H9",
+        "U13.H10",
+        "U13.H12",
+        "U13.J6",
+        "U13.J7",
+        "U13.J8",
+        "U13.J9",
+        "U13.J10",
+        "U13.K6",
+        "U13.K7",
+        "U13.K8",
+        "U13.K9",
+        "U13.K10",
+        "U13.L4",
+        "U13.M1",
+        "U13.M8",
+        "U13.M9",
+        "U13.N1",
+        "U14.2",
+        "U15.3",
+        "U15.4",
+        "U16.8",
+        "U16.9",
+        "U17.2",
+        "U18.2",
+        "U19.2",
+        "U20.2",
+        "U21.2",
+        "U23.5",
+        "U23.9",
+        "U24.1",
+        "U30.2",
+        "U31.2",
+        "U32.2",
+        "U33.2",
+        "U34.2",
+        "U35.2",
+        "U36.2",
+        "U37.2",
+        "U38.2",
+        "X1.2",
+        "X1.4",
+        "X3.2",
+        "X3.4"
+      ]
+    },
+    "32/VDD": {
+      "pin": "32/VDD",
+      "net": "VDD_MCU",
+      "endpoints": [
+        "19/VDD",
+        "32/VDD",
+        "48/VDD",
+        "64/VDD",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C14.2",
+        "C15.2",
+        "JP5.2",
+        "R17.1",
+        "R32.1",
+        "R34.2"
+      ]
+    },
+    "33/PB12": {
+      "pin": "33/PB12",
+      "net": "PB12",
+      "endpoints": [
+        "33/PB12",
+        "CN10.16"
+      ]
+    },
+    "34/PB13": {
+      "pin": "34/PB13",
+      "net": "PB13",
+      "endpoints": [
+        "34/PB13",
+        "CN10.30"
+      ]
+    },
+    "35/PB14": {
+      "pin": "35/PB14",
+      "net": "PB14",
+      "endpoints": [
+        "35/PB14",
+        "CN10.28",
+        "SB48.1"
+      ]
+    },
+    "36/PB15": {
+      "pin": "36/PB15",
+      "net": "PB15",
+      "endpoints": [
+        "36/PB15",
+        "CN10.26",
+        "SB49.1"
+      ]
+    },
+    "37/PC6": {
+      "pin": "37/PC6",
+      "net": "PC6",
+      "endpoints": [
+        "37/PC6",
+        "CN5.2",
+        "CN10.19"
+      ]
+    },
+    "38/PC7": {
+      "pin": "38/PC7",
+      "net": "PC7",
+      "endpoints": [
+        "38/PC7",
+        "SB21.1",
+        "SB41.1"
+      ]
+    },
+    "39/PC8": {
+      "pin": "39/PC8",
+      "net": "PC8",
+      "endpoints": [
+        "39/PC8",
+        "SB19.1",
+        "SB40.1",
+        "SB53.1"
+      ]
+    },
+    "40/PC9": {
+      "pin": "40/PC9",
+      "net": "PC9",
+      "endpoints": [
+        "40/PC9",
+        "SB9.1",
+        "SB10.1",
+        "SB11.1"
+      ]
+    },
+    "41/PA8": {
+      "pin": "41/PA8",
+      "net": "PA8",
+      "endpoints": [
+        "41/PA8",
+        "CN9.8",
+        "CN10.23"
+      ]
+    },
+    "42/PA9": {
+      "pin": "42/PA9",
+      "net": "PA9",
+      "endpoints": [
+        "42/PA9",
+        "SB17.1",
+        "SB39.1"
+      ]
+    },
+    "43/PA10": {
+      "pin": "43/PA10",
+      "net": "PA10",
+      "endpoints": [
+        "43/PA10",
+        "SB15.1",
+        "SB38.1"
+      ]
+    },
+    "44/PA11": {
+      "pin": "44/PA11",
+      "net": "USB_FS_N",
+      "endpoints": [
+        "44/PA11",
+        "SB23.2",
+        "U12.5"
+      ]
+    },
+    "45/PA12": {
+      "pin": "45/PA12",
+      "net": "USB_FS_P",
+      "endpoints": [
+        "45/PA12",
+        "SB25.2",
+        "U12.6"
+      ]
+    },
+    "46/PA13 (JTMS/SWDIO)": {
+      "pin": "46/PA13 (JTMS/SWDIO)",
+      "net": "DBG.SWDIO",
+      "endpoints": [
+        "46/PA13 (JTMS/SWDIO)",
+        "CN4.4",
+        "R48.2",
+        "SB14.2",
+        "U30.1"
+      ]
+    },
+    "47/VSS": {
+      "pin": "47/VSS",
+      "net": "GND",
+      "endpoints": [
+        "18/VSS",
+        "31/VSS",
+        "47/VSS",
+        "63/VSS",
+        "B2.1",
+        "B2.2",
+        "B3.5",
+        "C1.1",
+        "C2.1",
+        "C3.1",
+        "C4.1",
+        "C5.2",
+        "C6.2",
+        "C7.1",
+        "C8.1",
+        "C9.1",
+        "C10.1",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C14.1",
+        "C15.1",
+        "C16.1",
+        "C17.1",
+        "C18.1",
+        "C19.1",
+        "C20.1",
+        "C21.1",
+        "C22.1",
+        "C23.2",
+        "C24.1",
+        "C25.2",
+        "C26.2",
+        "C27.2",
+        "C28.1",
+        "C29.2",
+        "C30.2",
+        "C31.1",
+        "C32.2",
+        "C33.1",
+        "C34.1",
+        "C35.1",
+        "C36.2",
+        "C37.1",
+        "C38.1",
+        "C39.1",
+        "C40.1",
+        "C41.1",
+        "C42.1",
+        "C43.1",
+        "C44.2",
+        "C45.2",
+        "C46.2",
+        "C47.2",
+        "C48.2",
+        "C49.2",
+        "C50.2",
+        "C51.2",
+        "C52.2",
+        "C53.1",
+        "C54.1",
+        "C55.2",
+        "C56.2",
+        "C57.2",
+        "C58.2",
+        "C59.2",
+        "C60.2",
+        "C61.2",
+        "C62.2",
+        "C63.2",
+        "C64.2",
+        "C65.2",
+        "CN1.A1",
+        "CN1.A12",
+        "CN1.B1",
+        "CN1.B12",
+        "CN1.SH1",
+        "CN1.SH2",
+        "CN1.SH3",
+        "CN1.SH4",
+        "CN2.1",
+        "CN2.2",
+        "CN3.1",
+        "CN3.2",
+        "CN4.5",
+        "CN4.7",
+        "CN5.7",
+        "CN6.6",
+        "CN6.7",
+        "CN7.8",
+        "CN7.19",
+        "CN7.20",
+        "CN7.22",
+        "CN10.9",
+        "CN10.20",
+        "CN11.3",
+        "CN13.A1",
+        "CN13.A12",
+        "CN13.B1",
+        "CN13.B12",
+        "CN13.SH1",
+        "CN13.SH2",
+        "CN13.SH3",
+        "CN13.SH4",
+        "CN17.3",
+        "CN18.3",
+        "JP3.2",
+        "LD4.3",
+        "LD6.3",
+        "LD7.2",
+        "Q1.2",
+        "Q2.2",
+        "Q3.2",
+        "Q4.2",
+        "R8.1",
+        "R9.1",
+        "R12.1",
+        "R13.1",
+        "R18.1",
+        "R22.1",
+        "R24.1",
+        "R25.2",
+        "R26.2",
+        "R27.1",
+        "R28.1",
+        "R37.1",
+        "R43.2",
+        "R47.2",
+        "R55.2",
+        "R57.2",
+        "R59.2",
+        "R63.1",
+        "R66.2",
+        "R67.1",
+        "SB31.1",
+        "U2.2",
+        "U3.2",
+        "U4.2",
+        "U5.1",
+        "U6.2",
+        "U6.EP",
+        "U7.2",
+        "U8.4",
+        "U11.3",
+        "U12.3",
+        "U12.4",
+        "U13.D5",
+        "U13.D6",
+        "U13.D7",
+        "U13.D8",
+        "U13.D9",
+        "U13.F2",
+        "U13.F6",
+        "U13.F7",
+        "U13.F8",
+        "U13.F9",
+        "U13.F10",
+        "U13.F12",
+        "U13.G2",
+        "U13.G6",
+        "U13.G7",
+        "U13.G8",
+        "U13.G9",
+        "U13.G10",
+        "U13.G12",
+        "U13.H6",
+        "U13.H7",
+        "U13.H8",
+        "U13.H9",
+        "U13.H10",
+        "U13.H12",
+        "U13.J6",
+        "U13.J7",
+        "U13.J8",
+        "U13.J9",
+        "U13.J10",
+        "U13.K6",
+        "U13.K7",
+        "U13.K8",
+        "U13.K9",
+        "U13.K10",
+        "U13.L4",
+        "U13.M1",
+        "U13.M8",
+        "U13.M9",
+        "U13.N1",
+        "U14.2",
+        "U15.3",
+        "U15.4",
+        "U16.8",
+        "U16.9",
+        "U17.2",
+        "U18.2",
+        "U19.2",
+        "U20.2",
+        "U21.2",
+        "U23.5",
+        "U23.9",
+        "U24.1",
+        "U30.2",
+        "U31.2",
+        "U32.2",
+        "U33.2",
+        "U34.2",
+        "U35.2",
+        "U36.2",
+        "U37.2",
+        "U38.2",
+        "X1.2",
+        "X1.4",
+        "X3.2",
+        "X3.4"
+      ]
+    },
+    "48/VDD": {
+      "pin": "48/VDD",
+      "net": "VDD_MCU",
+      "endpoints": [
+        "19/VDD",
+        "32/VDD",
+        "48/VDD",
+        "64/VDD",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C14.2",
+        "C15.2",
+        "JP5.2",
+        "R17.1",
+        "R32.1",
+        "R34.2"
+      ]
+    },
+    "49/PA14 (JTCK/SWCLK)": {
+      "pin": "49/PA14 (JTCK/SWCLK)",
+      "net": "DBG.SWCLK",
+      "endpoints": [
+        "49/PA14 (JTCK/SWCLK)",
+        "CN4.6",
+        "R7.1",
+        "R50.2",
+        "SB16.2",
+        "U31.1"
+      ]
+    },
+    "50/PA15 (JTDI)": {
+      "pin": "50/PA15 (JTDI)",
+      "net": "NetR16_2",
+      "endpoints": [
+        "50/PA15 (JTDI)",
+        "R16.2"
+      ]
+    },
+    "51/PC10": {
+      "pin": "51/PC10",
+      "net": "PC10",
+      "endpoints": [
+        "51/PC10",
+        "CN7.1"
+      ]
+    },
+    "52/PC11": {
+      "pin": "52/PC11",
+      "net": "PC11",
+      "endpoints": [
+        "52/PC11",
+        "CN7.2"
+      ]
+    },
+    "53/PC12": {
+      "pin": "53/PC12",
+      "net": "PC12",
+      "endpoints": [
+        "53/PC12",
+        "CN7.3"
+      ]
+    },
+    "54/PD2": {
+      "pin": "54/PD2",
+      "net": "PD2",
+      "endpoints": [
+        "54/PD2",
+        "CN7.4"
+      ]
+    },
+    "55/(JTDO/TRACESWO) PB3": {
+      "pin": "55/(JTDO/TRACESWO) PB3",
+      "net": "DBG.SWO",
+      "endpoints": [
+        "55/(JTDO/TRACESWO) PB3",
+        "CN4.8",
+        "R49.2",
+        "SB20.1",
+        "U32.1"
+      ]
+    },
+    "56/(NJTRST) PB4": {
+      "pin": "56/(NJTRST) PB4",
+      "net": "PB4",
+      "endpoints": [
+        "56/(NJTRST) PB4",
+        "CN9.6",
+        "CN10.27"
+      ]
+    },
+    "57/PB5": {
+      "pin": "57/PB5",
+      "net": "PB5",
+      "endpoints": [
+        "57/PB5",
+        "SB22.1",
+        "SB42.1"
+      ]
+    },
+    "58/PB6": {
+      "pin": "58/PB6",
+      "net": "PB6",
+      "endpoints": [
+        "58/PB6",
+        "CN5.10",
+        "CN10.3"
+      ]
+    },
+    "59/PB7": {
+      "pin": "59/PB7",
+      "net": "PB7",
+      "endpoints": [
+        "59/PB7",
+        "CN5.9",
+        "CN10.5"
+      ]
+    },
+    "60/PH2": {
+      "pin": "60/PH2",
+      "net": "PH2_BOOT0",
+      "endpoints": [
+        "60/PH2",
+        "CN7.7",
+        "SB6.1"
+      ]
+    },
+    "61/PB8": {
+      "pin": "61/PB8",
+      "net": "PB8",
+      "endpoints": [
+        "61/PB8",
+        "SB36.1",
+        "SB37.1",
+        "SB50.1"
+      ]
+    },
+    "62/PB9": {
+      "pin": "62/PB9",
+      "net": "PB9",
+      "endpoints": [
+        "62/PB9",
+        "C13.1",
+        "R33.2",
+        "SB34.2",
+        "SB35.1"
+      ]
+    },
+    "63/VSS": {
+      "pin": "63/VSS",
+      "net": "GND",
+      "endpoints": [
+        "18/VSS",
+        "31/VSS",
+        "47/VSS",
+        "63/VSS",
+        "B2.1",
+        "B2.2",
+        "B3.5",
+        "C1.1",
+        "C2.1",
+        "C3.1",
+        "C4.1",
+        "C5.2",
+        "C6.2",
+        "C7.1",
+        "C8.1",
+        "C9.1",
+        "C10.1",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C14.1",
+        "C15.1",
+        "C16.1",
+        "C17.1",
+        "C18.1",
+        "C19.1",
+        "C20.1",
+        "C21.1",
+        "C22.1",
+        "C23.2",
+        "C24.1",
+        "C25.2",
+        "C26.2",
+        "C27.2",
+        "C28.1",
+        "C29.2",
+        "C30.2",
+        "C31.1",
+        "C32.2",
+        "C33.1",
+        "C34.1",
+        "C35.1",
+        "C36.2",
+        "C37.1",
+        "C38.1",
+        "C39.1",
+        "C40.1",
+        "C41.1",
+        "C42.1",
+        "C43.1",
+        "C44.2",
+        "C45.2",
+        "C46.2",
+        "C47.2",
+        "C48.2",
+        "C49.2",
+        "C50.2",
+        "C51.2",
+        "C52.2",
+        "C53.1",
+        "C54.1",
+        "C55.2",
+        "C56.2",
+        "C57.2",
+        "C58.2",
+        "C59.2",
+        "C60.2",
+        "C61.2",
+        "C62.2",
+        "C63.2",
+        "C64.2",
+        "C65.2",
+        "CN1.A1",
+        "CN1.A12",
+        "CN1.B1",
+        "CN1.B12",
+        "CN1.SH1",
+        "CN1.SH2",
+        "CN1.SH3",
+        "CN1.SH4",
+        "CN2.1",
+        "CN2.2",
+        "CN3.1",
+        "CN3.2",
+        "CN4.5",
+        "CN4.7",
+        "CN5.7",
+        "CN6.6",
+        "CN6.7",
+        "CN7.8",
+        "CN7.19",
+        "CN7.20",
+        "CN7.22",
+        "CN10.9",
+        "CN10.20",
+        "CN11.3",
+        "CN13.A1",
+        "CN13.A12",
+        "CN13.B1",
+        "CN13.B12",
+        "CN13.SH1",
+        "CN13.SH2",
+        "CN13.SH3",
+        "CN13.SH4",
+        "CN17.3",
+        "CN18.3",
+        "JP3.2",
+        "LD4.3",
+        "LD6.3",
+        "LD7.2",
+        "Q1.2",
+        "Q2.2",
+        "Q3.2",
+        "Q4.2",
+        "R8.1",
+        "R9.1",
+        "R12.1",
+        "R13.1",
+        "R18.1",
+        "R22.1",
+        "R24.1",
+        "R25.2",
+        "R26.2",
+        "R27.1",
+        "R28.1",
+        "R37.1",
+        "R43.2",
+        "R47.2",
+        "R55.2",
+        "R57.2",
+        "R59.2",
+        "R63.1",
+        "R66.2",
+        "R67.1",
+        "SB31.1",
+        "U2.2",
+        "U3.2",
+        "U4.2",
+        "U5.1",
+        "U6.2",
+        "U6.EP",
+        "U7.2",
+        "U8.4",
+        "U11.3",
+        "U12.3",
+        "U12.4",
+        "U13.D5",
+        "U13.D6",
+        "U13.D7",
+        "U13.D8",
+        "U13.D9",
+        "U13.F2",
+        "U13.F6",
+        "U13.F7",
+        "U13.F8",
+        "U13.F9",
+        "U13.F10",
+        "U13.F12",
+        "U13.G2",
+        "U13.G6",
+        "U13.G7",
+        "U13.G8",
+        "U13.G9",
+        "U13.G10",
+        "U13.G12",
+        "U13.H6",
+        "U13.H7",
+        "U13.H8",
+        "U13.H9",
+        "U13.H10",
+        "U13.H12",
+        "U13.J6",
+        "U13.J7",
+        "U13.J8",
+        "U13.J9",
+        "U13.J10",
+        "U13.K6",
+        "U13.K7",
+        "U13.K8",
+        "U13.K9",
+        "U13.K10",
+        "U13.L4",
+        "U13.M1",
+        "U13.M8",
+        "U13.M9",
+        "U13.N1",
+        "U14.2",
+        "U15.3",
+        "U15.4",
+        "U16.8",
+        "U16.9",
+        "U17.2",
+        "U18.2",
+        "U19.2",
+        "U20.2",
+        "U21.2",
+        "U23.5",
+        "U23.9",
+        "U24.1",
+        "U30.2",
+        "U31.2",
+        "U32.2",
+        "U33.2",
+        "U34.2",
+        "U35.2",
+        "U36.2",
+        "U37.2",
+        "U38.2",
+        "X1.2",
+        "X1.4",
+        "X3.2",
+        "X3.4"
+      ]
+    },
+    "64/VDD": {
+      "pin": "64/VDD",
+      "net": "VDD_MCU",
+      "endpoints": [
+        "19/VDD",
+        "32/VDD",
+        "48/VDD",
+        "64/VDD",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C14.2",
+        "C15.2",
+        "JP5.2",
+        "R17.1",
+        "R32.1",
+        "R34.2"
+      ]
+    }
+  }
+}
