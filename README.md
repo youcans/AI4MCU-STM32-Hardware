@@ -1,6 +1,6 @@
 # AI4MCU-STM32-Hardware
 
-**中文**
+**中文** | [English](README_en.md)
 
 **基于 Codex、altium-monkey-mcp 和 Python 的 STM32 硬件信息提取工作流**
 
